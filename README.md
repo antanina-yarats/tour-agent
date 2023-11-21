@@ -65,3 +65,8 @@ Please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Images from [Unsplash](https://unsplash.com/).
+- Special thanks to the creators of [GSAP](https://greensock.com/gsap/).
