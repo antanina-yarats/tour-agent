@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another chance to win a tour!</title>
+    <link rel="stylesheet" href="gameTwo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="wrapper">
+
+        <div class="header">
+            <h1>You get another chance to win a tour to one of our amazing destinations!</h1>
+            <br>
+            <h3>Do a quiz and win a trip! </h3>
+            <h4>You have 4 minutes to complete the form.  Press "submit" when you are finished</h4>
+                <br>
+                <button id="start"> Start </button> 
+                <p id="countdown">00:00</p>
+            
+        </div>
+
+        <form>
+
+            <div class="question">
+                <label>Plastic bags are banned there</label>
+                <span><input type="radio" name="one"> The Canary islands </span>
+                <span><input type="radio" name="one"> The Azore islands </span>
+                <span><input type="radio" name="one" id="answerOne"> The Hawaiian islands </span>
+                <span><input type="radio" name="one"> The Socotra Archipelago</span>
+            </div>
+
+            <div class="question">
+                <label>Which archipelago has the first island to use 100% renewable energy?</label>
+                <span><input type="radio" name="two" id="answerTwo"> The Canary islands </span>
+                <span><input type="radio" name="two"> The Azore islands </span>
+                <span><input type="radio" name="two"> The Hawaiian islands </span>
+                <span><input type="radio" name="two"> The Socotra Archipelago</span>
+            </div>
+
+
+            <div class="question">
+                <label class="dragon">Dragon's blood was once sold on these islands</label>
+                <span class="dragon"><input type="radio" name="three" > The Canary islands </span>
+                <span class="dragon"><input type="radio" name="three"> The Azore islands </span>
+                <span class="dragon"><input type="radio" name="three"> The Hawaiian islands </span>
+                <span class="dragon"><input type="radio" name="three" id="answerThree"> The Socotra Archipelago</span>
+            </div>
+
+            <div class="question">
+                <label class="dragon">Which archipelago is home to Europe's only tea plantation?</label>
+                <span class="dragon"><input  type="radio" name="four"> The Canary islands </span>
+                <span class="dragon"><input type="radio" name="four" id="answerFour"> The Azore islands </span>
+                <span class="dragon"><input class="dragon" type="radio" name="four"> The Hawaiian islands </span>
+                <span class="dragon"><input class="dragon" type="radio" name="four"> The Socotra Archipelago</span>
+            </div>
+
+            <br>
+
+        <button class="btn">SUBMIT</button>
+ 
+        <br>
+    
+        <p id="result"></p>
+
+        </form>
+       
+
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="gameTwo.js"></script>
+</body>
+</html>

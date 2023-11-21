@@ -1,0 +1,139 @@
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1610005595098-a02c45fd54fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif; 
+    min-height: 100%;
+   background-color: grey;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;  
+
+}
+
+form{
+    min-height: 100%;
+    display: none; 
+    width: 1000px;
+  
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    
+}
+
+h3{
+    background-color: rgb(224, 243, 237, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 26px;
+    color: rgb(64, 39, 89);
+   
+}
+
+
+
+#start{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px; 
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 102);
+    cursor: pointer;
+    width: 10%;
+}
+
+#start:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+
+#countdown{
+    font-size: 30px;
+    display: none;
+}
+
+
+.question{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+label{
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+}
+
+.dragon{
+    color: white;
+  }
+
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    width: 45%;
+    background-color: #e1644b;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+
+@media all and (max-width: 500px){
+  
+  body{
+    background-color: grey;
+  }
+  
+  h4{
+    color: white;
+  }
+  
+ #start{
+    width: 50%;
+    text-decoration: none;
+    color: black;
+}
+  
+  form{
+    min-height: 100%;
+    display: none; 
+    width: 250px;
+  
+}
+  
+
+}

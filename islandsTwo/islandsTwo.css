@@ -1,0 +1,227 @@
+
+body{
+    background-color: #062a50;
+    font-family: 'Rokkitt', serif;
+}
+
+p{
+  padding: 20px;
+  font-size: 22px;
+}
+
+span{
+    color: red;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 5px; 
+    text-align: center;
+}
+
+button{
+    padding: 5px; 
+    background-color: #005299;
+     border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.linkTo{
+    color: white;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #005299;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.boxOne {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #062a50;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.boxTwo {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #062a50;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.boxThree {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #062a50;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.boxFour {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #062a50;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.transparentOne {
+    background-color: rgba(239, 239, 206, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.transparentTwo {
+    background-color: rgba(239, 239, 206, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.transparentThree {
+    background-color: rgba(239, 239, 206, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.transparentFour {
+    background-color: rgba(239, 239, 206, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+.one{
+    background-image: url(https://images.unsplash.com/photo-1578356246540-0a40b23a8af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVuZXJpZmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.two{
+    background-image: url(https://images.unsplash.com/photo-1643780918689-ec62076c3826?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXpvcmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.three{
+    background-image: url(https://images.unsplash.com/photo-1609968044795-a50687a99d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGhhd2FpaXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.four{
+    background-image: url(https://images.unsplash.com/photo-1642425145404-7f4f4ccc2cc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c29jb3RyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+@media all and (max-width: 500px){
+    .boxOne {
+        width: 300px;
+        height: 300px;
+       
+    }
+    
+    .boxTwo {
+        width: 300px;
+        height: 300px;
+       
+    }
+    
+    .boxThree {
+        width: 300px;
+        height: 300px;
+        
+    }
+    
+    .boxFour {
+        width: 300px;
+        height: 300px;
+       
+    }
+
+    p{
+        padding: 3px;
+        font-size: 15px;
+      }
+
+    
+}
+
+@media all and (max-width: 280px){
+    .boxOne {
+        width: 300px;
+        height: 370px;
+       
+    }
+    
+    .boxTwo {
+        width: 300px;
+        height: 357px;
+       
+    }
+    
+    .boxThree {
+        width: 300px;
+        height: 357px;
+        
+    }
+    
+    .boxFour {
+        width: 300px;
+        height: 357px;
+       
+    }
+
+    p{
+        padding: 3px;
+        font-size: 15px;
+      }
+
+    
+}

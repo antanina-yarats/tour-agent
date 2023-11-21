@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="final.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  
+  <div class="flexi">
+    
+  
+  <h1>
+    Select and book your tour
+  </h1>
+
+    <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/f/xeqderal" method="post">
+        <fieldset id="fs-frm-inputs">
+
+
+          <label for="full-name">Full Name</label>
+
+
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+          <label for="email-address">Email Address</label>
+
+           <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+
+
+          <label for="message">Message</label>
+
+          <textarea rows="5" name="message" id="message" placeholder="Gluten free meals" required=""></textarea>
+
+          
+          <label for="islands">Islands</label>
+
+
+          <select name="islands" id="plus" required="">
+            <option value="Canary 50" selected="">The Canary islands</option>
+            <option value="Azore 50">The Azore islands</option>
+            <option value="Hawaii 100">The Hawaii</option>
+            <option value="Socotra 100">The Socotra Archipelago</option>
+        </select>
+          
+          
+           <label for="message">How many nights?</label>
+
+          <textarea class="night" rows="1" name="nights" id="message" required=""></textarea>
+          
+          
+          <label for="message">How many people?</label>
+
+          <textarea class="people" rows="1" name="people" id="message" required=""></textarea>
+          
+
+          <label for="plus">Food</label>
+
+
+          <select name="food" id="plus" required="">
+              <option value="AllInclusive 50" selected="">All-inclusive</option>
+              <option value="HalfBoard 25">Half-board</option>
+              <option value="BedAndBreakfast 10">Bed&Breakfast</option>
+              <option value="SelfArranged 10">Arrange on my own</option>
+          </select>
+
+          
+          <label for="plus">Type of accommodation</label>
+
+
+          <select name="accommodation" id="plus" required="">
+              <option value="Hotel 50" selected="">Hotel</option>
+              <option value="Bungalow 75">Bungalow</option>
+              <option value="Camping 20">Camping</option>
+              <option value="SelfArranged 10">Arrange on my own</option>
+          </select>
+
+             
+          <label for="plus">Flights</label>
+
+
+          <select name="flights" id="plus" required="">
+              <option value="Round 700" selected="">Round trip</option>
+              <option value="OneWay 350">One-way</option>
+              <option value="SelfArranged 0">Arrange on my own</option>
+          </select>
+
+          <input type="hidden" name="_subject" id="email-subject" value="RSVP">
+          <input type="hidden" name="_language" value="en" />
+
+          <br>
+
+    
+        </fieldset>
+
+        <br>
+
+        <input class="button" type="submit" value="Send">
+        
+      </form>
+
+    
+</div>
+
+
+
+
+</body>
+</html>

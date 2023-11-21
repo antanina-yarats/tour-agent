@@ -1,0 +1,268 @@
+
+
+body{
+    background-color: #2a2d46;
+    font-family: 'Rokkitt', serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    align-self: center;
+    width: 100%;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #0e112b;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px dotted white;
+    
+}
+
+.link{
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.link:hover{
+    color: white;
+}
+
+.tripleWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+   
+}
+
+/* text */
+
+.tripleWrapper .text{
+    width: 400px;
+    text-align: center;
+    background-color: #FFFFCC;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Rokkitt', serif;
+   
+}
+
+.tripleWrapper .text .par{
+    
+    font-size: 20px;
+    font-family: 'Rokkitt', serif;
+    
+    
+}
+
+.tripleWrapper .text .small{
+    border: 1px solid red;
+}
+
+.tripleWrapper .text .small .linkToFinal{
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Rokkitt', serif;
+    font-size: 18px;
+}
+
+/* central photo */
+
+.tripleWrapper .photo{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+   border-radius: 10px;
+}
+
+.tripleWrapper .photo .pic{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* weather boxes */
+
+.tripleWrapper .weather{
+    width: 400px;
+    text-align: center;
+    background-color: #FFDA77;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tripleWrapper .weather .api{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.col{
+    font-size: 20px;
+    
+}
+
+
+
+@media all and (max-width: 820px) {
+    .link{
+        font-size: 5vw; 
+    }
+
+     .buttonBox{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tripleWrapper{
+        margin-bottom: 20px;
+    }
+
+    .tripleWrapper .text{
+        width: 400px;
+       
+       
+    }
+    
+    .tripleWrapper .text .par{
+       
+        font-size: 25px;
+        
+        
+    }
+    
+    /* central photo */
+    
+    .tripleWrapper .photo{
+        width: 400px;
+       
+    }
+    
+    .tripleWrapper .photo .pic{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    /* weather boxes */
+    
+    .tripleWrapper .weather{
+        width: 400px;
+       
+    }
+    
+    .tripleWrapper .weather .api{
+        width: 100%;
+       
+    }
+    
+    .col{
+        font-size: 20px;
+    }
+    
+
+}
+
+
+@media all and (max-width: 500px){
+    .link{
+        font-size: 5vw; 
+    }
+
+    .buttonBox{
+        flex-wrap: wrap;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .par{
+        font-size: 16px; 
+    }
+
+    .tripleWrapper{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+       
+    }
+
+      
+    .tripleWrapper.photo{
+      width: 170px;
+      margin: 10px;
+      
+      
+     }
+
+    .tripleWrapper .photo .pic{
+        width: 100%;
+        
+    }
+
+    .tripleWrapper .text{
+        width: 300px;
+        margin: 10px;
+    }
+
+    .tripleWrapper .weather{
+        width: 300px;
+        margin: 10px;
+    }
+
+    .mobileOne{
+        background-color: #ADD8E6;
+    }
+
+    .mobileTwo{
+        background-color: #E6E6FA;
+    }
+
+    
+
+}
+
+@media all and (max-width: 280px) {
+
+    .link{
+        font-size: 5vw; 
+    }
+
+
+    .tripleWrapper .text .par{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        
+        
+    }
+}

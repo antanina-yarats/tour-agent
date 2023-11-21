@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel cost calculator</title>
+    <link rel="stylesheet" href="cost.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="parent">
+
+        <div class="container">
+
+            <div class="wrapper">
+
+                <div class="header">
+                    <h1>Ready to tackle the awesome island hiking trails?</h1>
+                    <h3>We are the experts on island travel trips and we are happy to help you with all Inclusive Packages or Hotels, Activities, Food, Airfare, and more !</h3>
+                     <button class="bookB"> <a class="link" href="/final/final.html">Book your trip</a> </button>
+                </div>
+
+                
+
+                <div class="calculator">
+
+                    <form id="form">
+
+                        <select id="islands" class="options">
+
+                            <option disabled selected>Select your tour</option>
+                            <option value="50">The Canary islands</option>
+                            <option value="50">The Azore islands</option>
+                            <option value="100">The Hawaii</option>
+                            <option value="100">The Socotra Archipelago</option>
+                        </select>
+
+                        <p class="head">How many nigths?</p>
+                        <span>
+                            <input type="text" id="nights" class="field">
+                        </span>
+
+
+                        <p class="head">How many people?</p>
+                        <span>
+                            <input type="text" id="people" class="field">
+                        </span>
+
+                        <p class="head">Type of accommodation</p>
+
+                        <select id="accommodation" class="options">
+                            <option value="50" selected>Hotel</option>
+                            <option value="70">Bungalow</option>
+                            <option value="20">Camping</option>
+                            <option value="10">Arrange on my own</option>
+                        </select>
+
+                        <p class="head">Food</p>
+                           
+                        <select id="food" class="options">
+                            <option value="50" selected>All-inclusive</option>
+                            <option value="25">Half-board</option>
+                            <option value="10">Bed&Breakfast</option>
+                            <option value="10">Arrange on my own</option>
+                        </select>
+
+                        <p class="head">Flights</p>
+                           
+                        <select id="fly" class="options">
+                            <option  value="700" selected>Round trip</option>
+                            <option value="350">One-way</option>
+                            <option value="10">Arrange on my own</option>
+                        </select>
+
+                        <br>
+
+                        <br>
+
+                        <button id="calculateBtn">Calculate</button>
+
+                        
+                        
+
+                    </form>
+
+                    <br>
+
+         
+                        <div class="total">
+                            <div id="person">
+                                <p class="totalP">Trip per person</p>
+                                
+                                <p class="totalP">$
+                                    <span id="pricePerson"></span>
+                                </p>
+                            </div>
+
+                            <div id="total">
+                                <p class="totalP">Total trip cost</p>
+
+                                <p class="totalP">$
+                                    <span id="priceTotal"></span>
+                                </p>
+                            </div>
+                        </div>
+                          
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cost.js"></script>
+</body>
+</html>
